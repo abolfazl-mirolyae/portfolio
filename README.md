@@ -44,19 +44,26 @@ Developed automation tools to support internal business processes and improve co
 
 *Project details and demonstrations will be shared without exposing confidential company information.*
 
-### 3. Kartabel — Organizational Task Management Platform
+### 3. Kartabl — Organizational Task Management & Office Automation Platform
+**Technology:** Python · FastAPI · SQLAlchemy · SQLite · WebSocket · Bale Bot API · JavaScript · CSS
 
-Designed and developed a web application for organizational task and workflow management.
+🔗 **Live demo: [abolfazl-mirolyae.github.io/kartabl-demo](https://abolfazl-mirolyae.github.io/kartabl-demo/)** · [demo repository](https://github.com/abolfazl-mirolyae/kartabl-demo)
 
-The platform is designed to help teams organize tasks, track activities, coordinate responsibilities, and manage work-related processes.
+Designed and developed a Persian (right-to-left) web application for organizational task and workflow management, built for daily use inside a real company.
 
 **Key capabilities include:**
-- Task and activity management
-- Calendar-based task organization
-- Team collaboration and workflow coordination
-- Meeting management and meeting minutes
+- Task and project management with list, kanban and Jalali (Persian) calendar views
+- Office automation: multi-step approval workflows, official letters, leave requests, meetings and minutes
+- Real-time chat and online meetings (WebSocket), plus always-on-screen sticky notes
+- Bale messenger bot for notifications, approvals, leave requests and one-time-code login
+- Light, dark and Liquid Glass themes, designed against WCAG contrast guidelines
 
-*The production source code is private. A separate public demonstration will showcase the project's capabilities.*
+**Quality and security:**
+- Load-tested with 200 concurrent users
+- 361 automated tests
+- Security review: access-control attack sweep, XSS fixes, strict Content Security Policy
+
+*The production source code is private; the public demo shows real screenshots and an interactive preview.*
 
 ---
 
