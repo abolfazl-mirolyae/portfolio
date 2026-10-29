@@ -76,6 +76,25 @@ Designed and developed a Persian (right-to-left) web application for organizatio
 
 *The production source code is private; the public demo shows real screenshots and an interactive preview.*
 
+### 4. Blasphemous 2 — Persian Translation & Installer (open source)
+**Technology:** Python · UnityPy · Unity Addressables · TextMeshPro · FreeType · NumPy/SciPy · PyInstaller
+
+🔗 **Repository & download: [github.com/abolfazl-mirolyae/blasphemous2-farsi](https://github.com/abolfazl-mirolyae/blasphemous2-farsi)**
+
+A complete Persian (right-to-left) fan translation of the game *Blasphemous 2*, delivered as a one-click Windows installer that patches the game's asset bundles on the player's machine. It ships no game files.
+
+<p>
+  <img src="https://raw.githubusercontent.com/abolfazl-mirolyae/blasphemous2-farsi/main/docs/screenshots/05-weapon-memories-key-prompts.png" width="49%">
+  <img src="https://raw.githubusercontent.com/abolfazl-mirolyae/blasphemous2-farsi/main/docs/screenshots/07-quest-item.png" width="49%">
+</p>
+
+**Key work:**
+- Wrote a dependency-free Persian text engine: Arabic-script shaping (presentation forms, lam-alef ligatures, ZWNJ), a simplified Unicode Bidi algorithm and width-aware line breaking, so TextMeshPro (which has no RTL shaping) renders Persian correctly with inline keyboard/controller prompts
+- Removed in-game stutter by pre-baking the font's SDF atlas offline (FreeType + distance transform, matching TextMeshPro's encoding) instead of rasterising glyphs at runtime
+- Debugged the IL2CPP game through its own logs: traced frozen currency counters to an invalid .NET culture code, and measured real UI box widths from the prefabs' RectTransform hierarchy to stop broken line wrapping
+- Rewrote 2,300+ strings of dialogue, lore and UI into natural, colloquial Persian with consistent terminology
+- Installer: automatic game detection, backups, upgrade from older patches, uninstall; unit tests; verified in-game
+
 ---
 
 ## 🛠️ Skills & Experience
