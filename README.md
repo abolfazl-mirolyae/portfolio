@@ -1,4 +1,4 @@
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Abolfazl Mirolyae 👋
 
 ### Web Developer | IT Support Specialist | Business Automation
 
@@ -13,7 +13,9 @@ I'm continuously improving my programming skills and working toward becoming a s
 ## 🚀 Featured Projects
 
 ### 1. Herosun Website & Custom CMS
-**Technology:** PHP
+**Technology:** PHP · Yii2 · JavaScript · CSS · MySQL
+
+🔗 **Live website: [herosunco.ir](https://herosunco.ir)**
 
 Developed the company's website and built a custom content management system to manage website content and support day-to-day website administration.
 
@@ -22,6 +24,9 @@ Developed the company's website and built a custom content management system to 
 - Custom CMS development
 - Website content management and maintenance
 - Technical troubleshooting and improvements
+- Responsive, right-to-left (Persian) redesign of the main pages
+- Performance work: the spare parts page went from 4.2 MB of HTML to 26 KB
+- Security and SEO clean-up: disabled production debug output, rebuilt the sitemap, added redirects for duplicate pages
 
 *The production source code is not publicly available.*
 
