@@ -16,8 +16,18 @@ I'm continuously improving my programming skills and working toward becoming a s
 **Technology:** PHP · Yii2 · JavaScript · CSS · MySQL
 
 🔗 **Live website: [herosunco.ir](https://herosunco.ir)**
+🛠️ **Try the CMS dashboard: [live demo](https://abolfazl-mirolyae.github.io/herosun-demo/cms/)** — the real dashboard code in preview mode; changes stay in your browser.
 
 Developed the company's website and built a custom content management system to manage website content and support day-to-day website administration.
+
+**CMS features:**
+- Blog, events (photo and video galleries), brands with PDF catalogues, products, homepage supplier logos and page texts, all managed from one Persian dashboard
+- Two business lines (spare parts, sport & accessories) with per-brand placement
+- Safe editing: optimistic locking between editors, atomic saves, automatic backups of the last 20 versions and one-click restore
+- Uploads validated by real file type; photos automatically resized to 1920px with correct phone rotation
+- Unused media finder to free server space
+- Per-article SEO title, description and share image, with Open Graph and structured data on the site
+- Recruitment inbox with private résumé storage, and admin-only access with login lockout
 
 **Key contributions:**
 - Website development and implementation
