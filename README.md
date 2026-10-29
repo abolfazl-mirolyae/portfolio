@@ -1,12 +1,12 @@
 # Hi, I'm Abolfazl Mirolyae 👋
 
-### Web Developer | IT Support Specialist | Business Automation
+### Web & Python Developer | Telegram/Bale Bots | Business Automation
 
 I'm a web developer and IT professional with hands-on experience in building business websites, custom content management systems, organizational automation bots, and web-based management applications.
 
 During my professional experience at Herosun, an automotive spare parts company, I have worked across software development, IT support, and digital marketing. I enjoy solving real-world problems through technology, improving business workflows, and building practical tools that make everyday work more efficient.
 
-I'm continuously improving my programming skills and working toward becoming a stronger software developer.
+I build software that runs in production at a real company, and I deliver it tested, documented and supported.
 
 ---
 
@@ -141,22 +141,14 @@ This cross-functional experience has helped me understand both the technical sid
 
 ---
 
-## 📚 Currently Learning
+## 🤝 Working With Me
 
-- Python
-- Backend Development
-- Django
-- Software Development Best Practices
+I take on freelance projects end to end: websites and CMS dashboards, Telegram and Bale bots, and automation of repetitive business work.
 
----
-
-## 🎯 Professional Interests
-
-I'm interested in developing reliable web applications, automating repetitive business processes, and building software solutions that solve practical organizational problems.
-
-I'm looking forward to collaborating with teams where I can contribute my current skills, learn from experienced developers, and continue growing as a software professional.
-
-
+- **Clear scope first:** a written estimate of features, timeline and cost before any work starts
+- **Milestone delivery:** the project is split into phases, with a live preview at every step
+- **Full handover:** complete source code, setup guide and a short walkthrough
+- **Support:** 30 days of free bug fixes after delivery
 
 ---
 
