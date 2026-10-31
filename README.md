@@ -48,6 +48,7 @@ Developed automation tools to support internal business processes and improve co
 **Customer Birthday Automation**
 - Automated customer birthday greetings
 - Implemented additional management features to support the workflow
+- Connected to Herosun CRM: gift deliveries and delivery photos sync automatically
 
 **Internal Issue Reporting Bot**
 - Provided a way for employees to report technical issues and problems
@@ -76,7 +77,33 @@ Designed and developed a Persian (right-to-left) web application for organizatio
 
 *The production source code is private; the public demo shows real screenshots and an interactive preview.*
 
-### 4. Blasphemous 2 — Persian Translation & Installer (open source)
+### 4. Herosun CRM — Customer Relationship Management for an Auto-Parts Distributor
+**Technology:** Python · Flask · SQLite · Jinja · JavaScript · CSS · openpyxl · Leaflet · Bale Bot API
+
+🔗 **Live demo (fake data): [abolfazl-mirolyae.github.io/herosun-crm-demo](https://abolfazl-mirolyae.github.io/herosun-crm-demo/)** · [demo repository](https://github.com/abolfazl-mirolyae/herosun-crm-demo)
+
+<p>
+  <img src="https://raw.githubusercontent.com/abolfazl-mirolyae/herosun-crm-demo/main/assets/shots/dashboard.webp" width="49%">
+  <img src="https://raw.githubusercontent.com/abolfazl-mirolyae/herosun-crm-demo/main/assets/shots/customer.webp" width="49%">
+</p>
+
+A Persian (right-to-left) CRM used by Herosun's sales team, field visitors and marketing. It is connected to the company's Bale birthday-gift bot, so every gift a visitor delivers appears in the CRM automatically, together with the delivery photo.
+
+**Key capabilities:**
+- Customer files imported from multi-sheet Excel with automatic column detection (623 customers from 16 visitor sheets in about 7 seconds), plus file-completion and missing-document tracking
+- Birthday gifts synced from the Bale bot: on-time, late or fined delivery, delivery photos, and follow-up calls that confirm the gift reached the customer
+- RFM grading, purchase-mix analysis from the accounting system's sales detail, cross-sell lists, and SMS/Bale campaigns with personalised messages
+- Sales pipeline (kanban), leads with source and conversion rate, complaint/return/warranty tickets, Jalali calendar and customer map
+- Roles for admin, sales, marketing and field visitors (each visitor sees only their own customers), an audit trail, a recycle bin and one-click backup
+- Dark and light themes, with an interface modelled on the CRM the company already used
+
+**Quality and security:**
+- 120 functional and 62 security tests: every route fuzzed with every role, XSS, SQL injection, CSRF, open redirect, upload and spreadsheet-formula injection, login lockout
+- Strict Content Security Policy plus clickjacking and MIME-sniffing protection
+
+*The production source code is private; the public demo is a clickable build of the real app with fake data.*
+
+### 5. Blasphemous 2 — Persian Translation & Installer (open source)
 **Technology:** Python · UnityPy · Unity Addressables · TextMeshPro · FreeType · NumPy/SciPy · PyInstaller
 
 🔗 **Repository & download: [github.com/abolfazl-mirolyae/blasphemous2-farsi](https://github.com/abolfazl-mirolyae/blasphemous2-farsi)**
@@ -132,6 +159,7 @@ My responsibilities have included:
 - Building a custom CMS
 - Developing business automation bots
 - Creating an organizational task management web application
+- Building the company CRM (customers, birthday gifts, RFM and marketing)
 - Providing technical support to employees
 - Troubleshooting application and system issues
 - Submitting and following up on support tickets with external software providers
